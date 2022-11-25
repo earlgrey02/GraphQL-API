@@ -14,6 +14,7 @@ type Query {
   getUser(id: Float!): User!
   login(authenticateUserDTO: AuthenticateUserDTO!): String!
 }
+
 type Mutation {
   createUser(createUserDTO: CreateUserDTO!): User!
   updateUser(id: Float!, updateUserDTO: UpdateUserDTO!): String!
